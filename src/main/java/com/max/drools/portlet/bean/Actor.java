@@ -11,6 +11,8 @@ public class Actor {
 
     private boolean logic = true;
 
+    public Integer age = 35;
+
     public void printToConsole(String string) {
         System.out.println("The result is:" + string);
     }
@@ -21,5 +23,13 @@ public class Actor {
 
     public void setLogic(boolean logic) {
         this.logic = logic;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }
